@@ -1,0 +1,21 @@
+
+[Parameters]
+Attribute="Rail -Edit?","U_Cab_Rail_Edit","bool",0
+Note="Rail Fnt","U_Cab_Rail_Fnt_Type_Att","int",-1,"<lst>Auto=-1|Standard Horizontal=1|Standard Vertical=2|Timber Horizontal=3|Timber Vertical=4|None=0"
+Note="Rail Fnt Width-H","U_Cab_Rail_Fnt_Width_H","meas","S_Room_Rails_Fnt_Width_H"
+Note="Rail Fnt Width-V","U_Cab_Rail_Fnt_Width_V","meas","S_Room_Rails_Fnt_Width_V"
+Note="Rail Bck","U_Cab_Rail_Bck_Type_Att","int",-1,"<lst>Auto=-1|Standard Horizontal=1|Standard Vertical=2|Timber Horizontal=3|Timber Vertical=4|None=0"
+Note="Rail Bck Width-H","U_Cab_Rail_Bck_Width_H","meas","S_Room_Rails_Bck_Width_H"
+Note="Rail Bck Width-V","U_Cab_Rail_Bck_Width_V","meas","S_Room_Rails_Bck_Width_V"
+Attribute="Drill Cabinet","U_SOLIDJOIN_ALL","meas","S_Room_Drill_All","<lst>.Auto=-3|.None=-2|Screw=10|Dowel=13|Cam Type 1=21|Cam Type 2=22|Fastenlink=30|User Defined 1=51|User Defined 2=52|.Purge=-1"
+Attribute="Drill Finished Parts","U_SOLIDJOIN_FIN","meas","S_Room_Drill_Fin","<lst>.Auto=-3|.None=-2|Screw=10|Dowel=13|Cam Type 1=21|Cam Type 2=22|Fastenlink=30|User Defined 1=51|User Defined 2=52"
+Attribute="Drill Local?","U_SOLIDJOIN_LOCAL","bool",1
+Attribute="Join Lh ?","U_Cab_Join_Lh_Type","int",0,"<lst>Off=0|End=1|End + Through=2|End + Pilot=3"
+Attribute="Join Rh ?","U_Cab_Join_Rh_Type","int",0,"<lst>Off=0|End=1|End + Through=2|End + Pilot=3"
+Attribute="Adj Bore -Edit?","U_CAB_ADJ_SH_BORE_EDIT","bool",0
+Attribute="Adj Bore -Full Hgt?","U_CAB_ADJ_SH_BORE_FULL_Att","int",-1,"<lst>Auto=-1|False=0|True=1"
+Attribute="Handles Draw Ctr?","U_Cab_Handles_DRWCTR_Att","int",-1,"<lst>Auto=-1|True=1|False=0"
+Attribute="Draws Level?","U_Cab_Drawers_Level","bool",1
+Attribute="Plastic  Legs?","U_Cab_Plastic_Legs_Att","int",-1,"<lst>Auto=-1|True=1|False=0"
+Attribute="Plastic Legs Inset Bck","U_Cab_Leg_Inset_Back","meas","U_Leg_Inset_Back_Def"
+Attribute="Plastic Legs DW Route?","U_Cab_Leg_DW_Route","int",0,"<lst>_None=0|Left=1|Right=2"
